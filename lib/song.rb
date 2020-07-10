@@ -45,7 +45,7 @@ attr_accessor :name, :artist, :genre
         artist_count_hash.key?(artist)
         artist_count_hash[artist] += 1
       else
-        artist_count_hash = 1
+        artist_count_hash[artist] = 1
       end
     end
     artist_count_hash
