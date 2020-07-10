@@ -44,7 +44,7 @@ def self.artist_count
   @@artists.each do |artist|
     if
       artist_count_hash.key?(artist)
-      artist_count_hash[genre] += 1
+      artist_count_hash[artist] += 1
     else
       artist_count_hash = 1
     end
