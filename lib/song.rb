@@ -40,14 +40,14 @@ attr_accessor :name, :artist, :genre
 end
 
 def self.artist_count
-  artists_count_hash = {}
+  artist_count_hash = {}
   @@artists.each do |artist|
     if
-      artists_count_hash.key?(artist)
+      artist_count_hash.key?(artist)
       artist_count_hash[genre] += 1
     else
       artist_count_hash = 1
     end
   end
-  artists_count_hash
+  artist_count_hash
 end
