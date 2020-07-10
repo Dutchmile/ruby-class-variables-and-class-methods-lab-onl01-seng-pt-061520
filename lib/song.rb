@@ -30,4 +30,5 @@ attr_accessor :name, :artist, :genre
     @@genres.each do |genre|
       genre_count_hash[genre] += 1
     end
+    end
 end
