@@ -39,7 +39,7 @@ attr_accessor :name, :artist, :genre
   end
 end
 
-def self.artists_count
+def self.artist_count
   artists_count_hash = {}
   @@artists.each do |artist|
     if
