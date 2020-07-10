@@ -23,4 +23,5 @@ attr_accessor :name, :artist, :genre
 
   def self.genres
     @@genres.uniq
+  end
 end
